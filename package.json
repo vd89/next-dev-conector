@@ -1,0 +1,52 @@
+{
+  "name": "next-dev-conector",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:vd89/next-dev-conector.git",
+  "author": "vd89 <dixitvora@gmail.com>",
+  "license": "MIT",
+  "description": "The social connection for developer using next js",
+  "keywords": [
+    "next.js",
+    "Node.Js",
+    "Express.Js",
+    "React",
+    "MongoDb"
+  ],
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
+    "compression": "^1.7.4",
+    "config": "^3.3.3",
+    "connect-mongo": "^3.2.0",
+    "date-fns": "^2.16.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.9.2",
+    "helmet": "^4.3.1",
+    "jss": "^10.5.0",
+    "mongoose": "^5.11.11",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "next": "^10.0.5",
+    "next-nprogress": "^1.4.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.1.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-jss": "^10.5.0",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "node Server/server.js",
+    "dev": "nodemon Server/server.js --watch server",
+    "build": "next build"
+  }
+}
